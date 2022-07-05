@@ -1,0 +1,125 @@
+*{
+    font-family: cursive,Helvetica, Sans-serif; 
+     box-sizing: border-box;
+ }
+ body{
+    margin:0;
+    padding:0;
+ }
+ h1{
+     text-align: center;
+ }
+ #container{
+    
+     width:1400px;
+     height:600px;
+     margin:0 auto;
+ }
+.foodItemContainer{
+     margin-top:50px;
+     width:400px;
+     background-color: aquamarine;
+     border: 2px solid red;
+     height:300px;
+     margin-left:35px;
+     float:left;
+}
+#chicken{
+     background-image: url("chicken-back.jpg");
+     background-repeat:no-repeat;
+     background-position: left center;
+     background-size:cover;
+     opacity: 0.8;
+ }
+ #beef{
+     background-image: url("beef-back.jpg");
+     background-repeat:no-repeat;
+     background-position: left center;
+     background-size:cover;
+     opacity: 0.8;
+ }
+ #sushi{
+     background-image: url("sushi-back.jpg");
+     background-repeat:no-repeat;
+     background-position: left center;
+     background-size:cover;
+     opacity: 0.8;
+ }
+.foodItemHeader{
+     border:1px solid grey;
+     background-color: lightcoral;
+     width:150px;
+     height:50px;
+     text-align: center;
+     float:right;
+     border-bottom-left-radius: 15px;
+     position:relative;
+     bottom:1px;
+     left:1px;
+}
+.foodItemHeader > h2{
+     position:relative;
+     bottom:15px;
+}
+.foodItemHeader > h2:hover{
+     cursor:pointer;
+}
+.foodInformation{
+     clear:right;
+     width:400px;
+     height:250px;
+     opacity:1;
+     text-align:center;
+     padding:10px;
+     font-style: italic;
+     margin:0 auto;
+}
+.foodInformation > p {
+     background-color: blanchedalmond;
+}
+@media (min-width:1200px){
+     #container{
+         width:100%;
+         margin:0 auto;
+     }
+     #chicken{
+         width:30%;
+     }
+     #beef{
+         width:30%;
+     }
+     #sushi{
+         width:30%;
+     }
+}
+@media (min-width:992px) and (max-width:1199px){
+     #container{
+         width:100%;
+         margin:0 auto;
+         height:100%;
+     }
+     #chicken{
+         width:45%;
+     }
+     #beef{
+         width:45%;
+     }
+     #sushi{
+         width:90%;
+     }
+}
+@media (max-width:991px){
+     #container{
+         width:100%;
+         margin:0 auto;
+     }
+     #chicken{
+         width:90%;
+     }
+     #beef{
+         width:90%;
+     }
+     #sushi{
+         width:90%;
+     }
+}
