@@ -36,11 +36,20 @@ h1{
     top:5px;
     left:15px;
 }
-#container button { 
+#addTask { 
     width:80px;
     height:50px;
     border-radius:15px;
     background-color:beige;
+
+}
+#clearTask { 
+    width:80px;
+    height:50px;
+    border-radius:15px;
+    background-color:beige;
+    position:relative;
+    top:-8px;
 
 }
 #taskManagement{
